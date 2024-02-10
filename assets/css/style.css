@@ -1222,6 +1222,101 @@ section {
   color: #3c2415;
 }
 
+
+/*--------------------------------------------------------------
+# Public Sector
+--------------------------------------------------------------*/
+
+.public-sector {
+  background: #F9F9F9;
+}
+
+.public-sector .public-sector-title {
+  padding-bottom: 40px;
+}
+
+.public-sector .public-sector-title p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  line-height: auto;
+  margin: 0 0 5px 0;
+  letter-spacing: unset;
+  text-transform:unset;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+.public-sector .public-sector-title h2 {
+  margin: 0;
+  margin: 0;
+  font-size: 38px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #3C2415;
+}
+
+.public-sector .box {
+  padding: 35px 30px;
+  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
+  transition: all ease-in-out 0.3s;
+  background: #F9F9F9;
+  border: 1px solid #efefef;
+  /* height: 18rem; */
+}
+
+.public-sector .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
+.public-sector .box h4 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0px;
+  color: black;
+}
+
+.public-sector .box p {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.public-sector .box a {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.public-sector .box a:hover {
+  color: #cda45e;
+}
+
+.public-sector .box:hover {
+  background: white;
+  /* padding: 30px 30px 70px 30px; */
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  transition: 0.3s;
+}
+
+.public-sector .box:hover h4{
+  color: #cda45e;
+}
+
+.public-sector .box:hover span,
+.public-sector .box:hover p {
+  color: #3c2415;
+}
+
 /*--------------------------------------------------------------
 # Testi Index
 --------------------------------------------------------------*/
@@ -1328,7 +1423,7 @@ section {
 --------------------------------------------------------------*/
 .industry-index {
   background-color: #FFFFFF;
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .industry-index .section-title {
@@ -1381,7 +1476,7 @@ section {
 --------------------------------------------------------------*/
 .our-process-index {
   background-color: #FFFFFF;
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .our-process-index .section-title {
@@ -1416,7 +1511,7 @@ section {
 --------------------------------------------------------------*/
 .blog-index {
   background-color: #FFFFFF;
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .blog-index .section-title {
@@ -2781,6 +2876,41 @@ section {
   padding-bottom: 10px;
 }
 
+.sub-hero-2 {
+  background-color: black;
+  padding: 2rem 0;
+}
+
+.sub-hero-2 .section-title {
+  padding-bottom: 40px;
+  align-items: left;
+  text-align: left;
+}
+
+.sub-hero-2 .section-title p {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0 0 5px 0;
+  letter-spacing: unset;
+  text-transform:unset;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.sub-hero-2 .section-title h2 {
+  margin: 0;
+  margin: 0;
+  font-size: 58px;
+  letter-spacing: unset;
+  text-transform:unset;
+  line-height: normal;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-bottom: 10px;
+}
+
 .btn-primary{
   background: #cda45e;
   border: 0;
@@ -2943,6 +3073,10 @@ section {
     background-repeat: no-repeat !important;
     background-position: bottom !important;
     background-position-x: 36rem !important;
+}
+
+.bg-primary {
+  background-color: white !important;
 }
 
 .bg-secondary {
