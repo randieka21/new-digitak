@@ -211,9 +211,9 @@
   });
 
   /**
-   * Events slider
+   * Hero slider
    */
-  new Swiper('.events-slider', {
+  new Swiper('.hero-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -227,6 +227,54 @@
       clickable: true
     }
   });
+
+    /**
+   * Events slider
+   */
+    new Swiper('.events-slider', {
+      speed: 600,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      slidesPerView: 'auto',
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      }
+    });
+
+  /**
+   * Clients slider
+   */
+  new Swiper('.clients-logo-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 1200,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 6,
+        spaceBetween: 20
+      }
+    }
+  });
+
 
   /**
    * Testimonials slider
